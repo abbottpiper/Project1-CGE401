@@ -1,36 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ClickedSprites : MonoBehaviour
 {
-    public GameObject appleSeeds;
+    public bool mouseClick;
 
-    private bool isClicked;
-    bool isAppleSeeds = false;
-    int appleSeedsNum = 1;
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+
     }
 
     private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            isClicked = true;
-        }
+        mouseClick = true;
     }
 
     private void OnMouseUp()
     {
-        isClicked = false;
-    }
-
-    private void OnMouseOver()
-    {
-        
+        mouseClick = false;
     }
 }
