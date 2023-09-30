@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: d777863672b1b3b429b3ee4477344f92
+guid: 4d56ebe880ac61142b946650f1b54dae
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Apple_0
+    21300000: Heart_0
+    21300002: Heart_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,13 +75,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apple_0
+      name: Heart_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 39
-        width: 49
-        height: 39
+        x: 0
+        y: 4
+        width: 314
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +89,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76aeac88f01958644826d05d80468066
+      spriteID: 3c2b024f427173e41a05ad0dc84cb4a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 313
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35683ddc173d62348b7670286b7bce2c
       vertices: []
       indices: 
       edges: []
@@ -96,7 +117,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f6374f780061f9a4d8a6721e6091725b
+    spriteID: 337631de4c1a0574c8249acdd2105b9c
     vertices: []
     indices: 
     edges: []
