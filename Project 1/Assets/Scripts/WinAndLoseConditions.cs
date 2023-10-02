@@ -35,34 +35,61 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public void OrderOne()
     {
-        if (countOrdersScript.totalCount == 4)
+        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 4)
         {
-            if (countOrdersScript.totalFood == 4)
-            {
-                Order.text = "Correct! Great Job!";
-                time = 10.0f;
+            Order.text = "Correct! Great Job!";
+            time = 10.0f;
 
-                countOrdersScript.totalCount = 0;
-                countOrdersScript.totalFood = 0;
-            }
-            else if(countOrdersScript.totalFood != 4)
-            {
-                healthSystemScript.TakeDamage();
-                Order.text = "Incorrect, try again.";
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+            Order.text = "Incorrect, try again.";
 
-                countOrdersScript.totalCount = 0;
-                countOrdersScript.totalFood = 0;
-            }
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
         }
     }
 
     public void OrderTwo()
     {
+        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 10)
+        {
+            Order.text = "Correct! Great Job!";
+            time = 10.0f;
 
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+            Order.text = "Incorrect, try again.";
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
     }
 
     public void OrderThree()
     {
+        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 9)
+        {
+            Order.text = "Correct! Great Job!";
+            time = 10.0f;
 
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+            Order.text = "Incorrect, try again.";
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
     }
 }

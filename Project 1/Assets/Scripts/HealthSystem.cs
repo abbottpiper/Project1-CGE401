@@ -72,6 +72,4 @@ public class HealthSystem : MonoBehaviour
     {
         maxHealth++;
     }
-
-
 }
