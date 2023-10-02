@@ -22,25 +22,25 @@ public class CountOrders : MonoBehaviour
 
     public void AddAppleToScore()
     {
-        totalCount += 1;
+        totalCount++;
         totalFood += appleCount;
     }
 
     public void AddOrangeToScore()
     {
-        totalCount += 1;
+        totalCount++;
         totalFood += orangeCount;
     }
 
     public void AddCornToScore()
     {
-        totalCount += 1;
+        totalCount++;
         totalFood += cornCount;
     }
 
     public void AddTomatoToScore()
     {
-        totalCount += 1;
+        totalCount++;
         totalFood += tomatoCount;
     }
 }

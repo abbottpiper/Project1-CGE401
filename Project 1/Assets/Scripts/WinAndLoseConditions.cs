@@ -31,8 +31,6 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
             time = 10.0f;
         }
-
-        OrderOne();
     }
 
     public void OrderOne()
@@ -43,16 +41,27 @@ public class WinAndLoseConditions : MonoBehaviour
             {
                 Order.text = "Correct! Great Job!";
                 time = 10.0f;
+
+                countOrdersScript.totalCount = 0;
+                countOrdersScript.totalFood = 0;
             }
             else if(countOrdersScript.totalFood != 4)
             {
                 healthSystemScript.TakeDamage();
                 Order.text = "Incorrect, try again.";
+
+                countOrdersScript.totalCount = 0;
+                countOrdersScript.totalFood = 0;
             }
         }
     }
 
     public void OrderTwo()
+    {
+
+    }
+
+    public void OrderThree()
     {
 
     }
