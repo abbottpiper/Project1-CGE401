@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222.89, y: -58.3}
+  m_AnchoredPosition: {x: 222.5, y: -42.4}
   m_SizeDelta: {x: 39.72519, y: 35.409355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116623824
@@ -1449,7 +1449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223.8, y: -52.2}
+  m_AnchoredPosition: {x: 222.7, y: -42.6}
   m_SizeDelta: {x: 37.913147, y: 44.322037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &495347919
@@ -1817,8 +1817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220.2, y: -57.2}
-  m_SizeDelta: {x: 71.25275, y: 58.18698}
+  m_AnchoredPosition: {x: 222.2, y: -45.5}
+  m_SizeDelta: {x: 30.530579, y: 32.703102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657691528
 MonoBehaviour:
@@ -2448,7 +2448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 222.1, y: -54}
+  m_AnchoredPosition: {x: 222.8, y: -40.2}
   m_SizeDelta: {x: 38.14467, y: 44.989395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927973698
@@ -3758,7 +3758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657531496
@@ -3978,7 +3978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224.2, y: -56}
+  m_AnchoredPosition: {x: 222.1, y: -82.1}
   m_SizeDelta: {x: 75.22731, y: 34.094833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793751153
@@ -4012,7 +4012,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '
+
+'
 --- !u!222 &1793751154
 CanvasRenderer:
   m_ObjectHideFlags: 0

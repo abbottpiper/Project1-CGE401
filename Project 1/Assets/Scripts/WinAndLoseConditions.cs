@@ -25,8 +25,7 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-
-        if (time <= 0)
+        else 
         {
             healthSystemScript.TakeDamage();
             time = 10.0f;
