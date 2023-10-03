@@ -10,7 +10,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public Text Order;
 
-    public float time = 10.0f;
+    public float time = 15.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -25,10 +25,10 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             time -= Time.deltaTime;
         }
-        else 
+        else
         {
+            time = 15.0f;
             healthSystemScript.TakeDamage();
-            time = 10.0f;
         }
     }
 
@@ -36,8 +36,8 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 4)
         {
-            Order.text = "Correct! Great Job!";
-            time = 10.0f;
+            //Order.text = "Correct! Great Job!";
+            time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -45,7 +45,7 @@ public class WinAndLoseConditions : MonoBehaviour
         else
         {
             healthSystemScript.TakeDamage();
-            Order.text = "Incorrect, try again.";
+            //Order.text = "Incorrect, try again.";
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -56,8 +56,8 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 10)
         {
-            Order.text = "Correct! Great Job!";
-            time = 10.0f;
+            //Order.text = "Correct! Great Job!";
+            time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -65,7 +65,7 @@ public class WinAndLoseConditions : MonoBehaviour
         else
         {
             healthSystemScript.TakeDamage();
-            Order.text = "Incorrect, try again.";
+            //Order.text = "Incorrect, try again.";
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -76,8 +76,8 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 9)
         {
-            Order.text = "Correct! Great Job!";
-            time = 10.0f;
+            //Order.text = "Correct! Great Job!";
+            time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -85,7 +85,7 @@ public class WinAndLoseConditions : MonoBehaviour
         else
         {
             healthSystemScript.TakeDamage();
-            Order.text = "Incorrect, try again.";
+            //Order.text = "Incorrect, try again.";
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
