@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class OrderTicketManager : MonoBehaviour
 {
-    public Image[] orderTickets; // An array of your order ticket images.
-    public float enableInterval = 3f; // Time interval between enabling order tickets.
-    private int currentIndex = 0; // Index of the currently enabled order ticket.
+    public Image[] orderTickets; 
+    public float enableInterval = 3f; 
+    private int currentIndex = 0; 
 
     private void Start()
     {
@@ -17,13 +17,13 @@ public class OrderTicketManager : MonoBehaviour
     {
         while (currentIndex < orderTickets.Length)
         {
-            // Enable the current order ticket.
+           
             orderTickets[currentIndex].enabled = true;
 
-            // Wait for the specified enable interval.
+            
             yield return new WaitForSeconds(enableInterval);
 
-            // Move to the next order ticket in the array.
+            
             currentIndex++;
         }
     }

@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
-public class LoadPastTutorial : MonoBehaviour {
+public class LoadToCredits : MonoBehaviour {
 	public Button yourButton;
 
 	void Start () {
@@ -11,6 +11,6 @@ public class LoadPastTutorial : MonoBehaviour {
 	}
 
 	void TaskOnClick(){
-		SceneManager.LoadScene("GardenScene", LoadSceneMode.Single);
+		SceneManager.LoadScene("Credits", LoadSceneMode.Single);
 	}
 }

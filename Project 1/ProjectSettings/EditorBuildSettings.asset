@@ -5,10 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/TutorialScreen.unity
+    guid: c2fde973d9f0856409f0413c3e764a6d
+  - enabled: 1
+    path: Assets/Scenes/GardenScene.unity
+    guid: fc9f04c9ae110344b9444ba64f2147fa
+  - enabled: 1
     path: Assets/Scenes/Watering.unity
     guid: 1545fa507317b8546b9152a55ec7812d
   - enabled: 1
+    path: Assets/Scenes/FlySwatter.unity
+    guid: 4c688e13f3f26844f9052a122788e363
+  - enabled: 0
     path: Assets/Scenes/Garden.unity
     guid: 987c0dc72fa848141ae7da459cb42104
   m_configObjects: {}
