@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class WinAndLoseConditions : MonoBehaviour
 {
-    private CountOrders countOrdersScript;
-    private HealthSystem healthSystemScript;
+    public CountOrders countOrdersScript;
+    public HealthSystem healthSystemScript;
 
     public Text Order;
 
@@ -34,7 +34,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public void OrderOne()
     {
-        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 4)
+        if (countOrdersScript.totalFood == 4)
         {
             Order.text = "Correct! Great Job!";
             time = 10.0f;
@@ -54,7 +54,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public void OrderTwo()
     {
-        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 10)
+        if (countOrdersScript.totalFood == 10)
         {
             Order.text = "Correct! Great Job!";
             time = 10.0f;
@@ -74,7 +74,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public void OrderThree()
     {
-        if (countOrdersScript.totalCount == 4 && countOrdersScript.totalFood == 9)
+        if (countOrdersScript.totalFood == 9)
         {
             Order.text = "Correct! Great Job!";
             time = 10.0f;

@@ -52,7 +52,7 @@ public class HealthSystem : MonoBehaviour
         if (health <= 0)
         {
             gameOver = true;
-            gameOverText.SetActive(true);
+            //gameOverText.SetActive(true);
 
             //Press R to restart if game is over
             if (Input.GetKeyDown(KeyCode.R))
