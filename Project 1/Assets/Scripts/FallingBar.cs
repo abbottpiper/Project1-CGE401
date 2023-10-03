@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+Piper Abbott-Phillips
+FallingBar
+Project 2
+Code pushes object down with gravity, holds it within the confines of the UI bar, and allows the player to apply upwards force with a mouseclick
+*/
+using UnityEngine;
 
 public class FallingBar : MonoBehaviour
 {
