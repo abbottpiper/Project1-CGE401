@@ -1,4 +1,11 @@
-﻿using UnityEngine;
+﻿
+/*
+Piper Abbott-Phillips
+ClickAndDisable
+Project 2
+Code tracks players mouse position on left click, and disabled object that is clicked on
+*/
+using UnityEngine;
 
 public class ClickAndDisable : MonoBehaviour
 {
