@@ -19,6 +19,11 @@ public class WinAndLoseConditions : MonoBehaviour
 
     }
 
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(2);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -38,8 +43,10 @@ public class WinAndLoseConditions : MonoBehaviour
         if (countOrdersScript.totalFood == 4)
         {
             CorrectOrderText.SetActive(true);
+            //Delay();
+            //CorrectOrderText.SetActive(false);
 
-           // time = 15.0f;
+            // time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -51,6 +58,8 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
 
             WrongOrderText.SetActive(true);
+            //Delay();
+            //WrongOrderText.SetActive(false);
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;

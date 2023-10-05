@@ -1794,7 +1794,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countOrdersScript: {fileID: 647665040}
   healthSystemScript: {fileID: 1193332521}
-  time: 15
   CorrectOrderText: {fileID: 694801303}
   WrongOrderText: {fileID: 956544172}
 --- !u!4 &647665042
@@ -2337,9 +2336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countOrdersScript: {fileID: 647665040}
   healthSystemScript: {fileID: 1193332521}
-  time: 10
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
 --- !u!114 &827822585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3546,9 +3544,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countOrdersScript: {fileID: 647665040}
   healthSystemScript: {fileID: 1193332521}
-  time: 10
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
 --- !u!114 &1510006927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4176,9 +4173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countOrdersScript: {fileID: 647665040}
   healthSystemScript: {fileID: 1193332521}
-  time: 10
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
 --- !u!114 &1755688566
 MonoBehaviour:
   m_ObjectHideFlags: 0
