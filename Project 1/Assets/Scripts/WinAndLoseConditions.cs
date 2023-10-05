@@ -8,20 +8,25 @@ public class WinAndLoseConditions : MonoBehaviour
     public CountOrders countOrdersScript;
     public HealthSystem healthSystemScript;
 
-   // public float time = 15.0f;
+    public float time = 15.0f;
 
     public GameObject CorrectOrderText;
     public GameObject WrongOrderText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    public GameObject gameWonText;
 
+    IEnumerator DelayedCloseCorrect()
+    {
+        yield return new WaitForSeconds(2.0f);
+
+        CorrectOrderText.SetActive(false);
     }
 
-    IEnumerator Delay()
+    IEnumerator DelayedCloseWrong()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.0f);
+
+        WrongOrderText.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,11 +34,11 @@ public class WinAndLoseConditions : MonoBehaviour
     {
        // if (time > 0)
         //{
-            //time -= Time.deltaTime;
-        //}
+           // time -= Time.deltaTime;
+       // }
         //else
-        //{
-           // time = 15.0f;
+       // {
+         //   time = 15.0f;
           //  healthSystemScript.TakeDamage();
         //}
     }
@@ -43,10 +48,9 @@ public class WinAndLoseConditions : MonoBehaviour
         if (countOrdersScript.totalFood == 4)
         {
             CorrectOrderText.SetActive(true);
-            //Delay();
-            //CorrectOrderText.SetActive(false);
+            DelayedCloseCorrect();
 
-            // time = 15.0f;
+             time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -58,8 +62,7 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
 
             WrongOrderText.SetActive(true);
-            //Delay();
-            //WrongOrderText.SetActive(false);
+            DelayedCloseWrong();
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
