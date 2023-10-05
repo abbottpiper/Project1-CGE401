@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+Piper Abbott-Phillips
+LoadPastTutorial
+Project 2
+Code controls button function and scene loading from main menu to game scene
+*/
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
