@@ -48,7 +48,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (countOrdersScript.totalFood == 4)
         {
             CorrectOrderText.SetActive(true);
-            DelayedCloseCorrect();
+            StartCoroutine(DelayedCloseCorrect());
 
              time = 15.0f;
 
@@ -62,7 +62,7 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
 
             WrongOrderText.SetActive(true);
-            DelayedCloseWrong();
+            StartCoroutine(DelayedCloseWrong());
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -74,8 +74,9 @@ public class WinAndLoseConditions : MonoBehaviour
         if (countOrdersScript.totalFood == 10)
         {
             CorrectOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseCorrect());
 
-           // time = 15.0f;
+            // time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -87,6 +88,7 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
 
             WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -98,8 +100,9 @@ public class WinAndLoseConditions : MonoBehaviour
         if (countOrdersScript.totalFood == 9)
         {
             CorrectOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseCorrect());
 
-           // time = 15.0f;
+            // time = 15.0f;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -111,6 +114,7 @@ public class WinAndLoseConditions : MonoBehaviour
             healthSystemScript.TakeDamage();
 
             WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
