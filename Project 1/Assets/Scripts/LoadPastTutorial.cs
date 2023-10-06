@@ -1,6 +1,6 @@
 ﻿/*
 Piper Abbott-Phillips
-LoadPastTutorial
+LoadPastTutorial.cs
 Project 2
 Code controls button function and scene loading from main menu to game scene
 */

@@ -1,7 +1,7 @@
 ﻿
 /*
 Piper Abbott-Phillips
-ClickAndDisable
+ClickAndDisable.cs
 Project 2
 Code tracks players mouse position on left click, and disabled object that is clicked on
 */

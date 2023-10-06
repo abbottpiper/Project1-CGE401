@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+Piper Abbott-Phillips
+LoadToCredits.cs
+Project 2
+Code loads the "Credits" scene on button press
+*/
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;

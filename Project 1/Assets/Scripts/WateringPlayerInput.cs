@@ -1,4 +1,10 @@
-﻿using UnityEngine;
+﻿/*
+Piper Abbott-Phillips
+WateringPlayerInput.cs
+Project 2
+Code allows player to apply upwards force to a game object in order to balance it in a specificed area
+*/
+using UnityEngine;
 
 public class WateringPlayerInput : MonoBehaviour
 {

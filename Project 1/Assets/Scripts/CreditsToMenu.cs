@@ -1,6 +1,6 @@
 ﻿/*
 Piper Abbott-Phillips
-CreditsToMenu
+CreditsToMenu.cs
 Project 2
 Code contorls button functionality and scene loading from credits back to the main menu
 */
