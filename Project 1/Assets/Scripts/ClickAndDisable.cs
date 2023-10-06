@@ -54,8 +54,8 @@ public class ClickAndDisable : MonoBehaviour
 
     private void MoveToRandomPosition()
     {
-        float randomX = Random.Range(-232f, 232f);
-        float randomY = Random.Range(-120f, 120f);
+        float randomX = Random.Range(-9f, 9.8f);
+        float randomY = Random.Range(-6.5f, 6f);
         targetPosition = new Vector3(randomX, randomY, 0f);
     }
 }
