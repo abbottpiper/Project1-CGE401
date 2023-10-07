@@ -7,6 +7,7 @@ public class WinAndLoseConditions : MonoBehaviour
 {
     public CountOrders countOrdersScript;
     public HealthSystem healthSystemScript;
+    public Timer timerScript;
 
     public GameObject WrongOrderText;
 
