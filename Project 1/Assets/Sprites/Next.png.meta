@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: d777863672b1b3b429b3ee4477344f92
+guid: f97ce39cb96e68840934ff9b3efca43b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Apple_0
+    21300000: Next_0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,13 +74,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Apple_0
+      name: Next_0
       rect:
         serializedVersion: 2
-        x: 2177
-        y: 2177
-        width: 3758
-        height: 5630
+        x: 0
+        y: 0
+        width: 1200
+        height: 624
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 897404f543db76b4390289af3432c945
+      spriteID: c34a4dfe99641f443bb51c96ff33bc25
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f6374f780061f9a4d8a6721e6091725b
+    spriteID: d1d7a274013d6f94498779af60b80048
     vertices: []
     indices: 
     edges: []

@@ -8,18 +8,17 @@ public class WinAndLoseConditions : MonoBehaviour
     public CountOrders countOrdersScript;
     public HealthSystem healthSystemScript;
 
-    public float time = 15.0f;
-
-    public GameObject CorrectOrderText;
     public GameObject WrongOrderText;
 
-    public GameObject GameWonText;
+    public GameObject gameWonText;
 
-    IEnumerator DelayedCloseCorrect()
+    public Text ScoreText;
+    public static int scoreCount;
+
+    private void Start()
     {
-        yield return new WaitForSeconds(2.0f);
-
-        CorrectOrderText.SetActive(false);
+        ScoreText = GetComponent<Text>();
+        scoreCount = 0;
     }
 
     IEnumerator DelayedCloseWrong()
@@ -32,30 +31,22 @@ public class WinAndLoseConditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // if (time > 0)
-        //{
-           // time -= Time.deltaTime;
-       // }
-        //else
-       // {
-         //   time = 15.0f;
-          //  healthSystemScript.TakeDamage();
-        //}
+        ScoreText.text = "Score: " + scoreCount;
+
+        if (scoreCount == 3)
+        {
+            gameWonText.SetActive(true);
+        }
     }
 
     public void OrderOne()
     {
         if (countOrdersScript.totalFood == 4)
         {
-            CorrectOrderText.SetActive(true);
-            StartCoroutine(DelayedCloseCorrect());
-
-             time = 15.0f;
+            scoreCount++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
-
-            Destroy(GameObject.FindWithTag("OrderOne"));
         }
         else
         {
@@ -73,15 +64,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 10)
         {
-            CorrectOrderText.SetActive(true);
-            StartCoroutine(DelayedCloseCorrect());
-
-            // time = 15.0f;
+            scoreCount++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
-
-            Destroy(GameObject.FindWithTag("OrderTwo"));
         }
         else
         {
@@ -99,15 +85,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 9)
         {
-            CorrectOrderText.SetActive(true);
-            StartCoroutine(DelayedCloseCorrect());
-
-            // time = 15.0f;
+            scoreCount++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
-
-            Destroy(GameObject.FindWithTag("OrderThree"));
         }
         else
         {
