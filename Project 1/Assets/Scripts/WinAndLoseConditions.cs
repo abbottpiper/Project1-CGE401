@@ -13,7 +13,7 @@ public class WinAndLoseConditions : MonoBehaviour
     public GameObject CorrectOrderText;
     public GameObject WrongOrderText;
 
-    public GameObject gameWonText;
+    public GameObject GameWonText;
 
     IEnumerator DelayedCloseCorrect()
     {

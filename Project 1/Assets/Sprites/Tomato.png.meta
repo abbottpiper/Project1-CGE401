@@ -77,10 +77,10 @@ TextureImporter:
       name: Tomato_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 40
-        width: 40
-        height: 26
+        x: 149
+        y: 1553
+        width: 5318
+        height: 7034
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fa7daa5c5533f541b2401b92ef952ea
+      spriteID: 25b09d70b16d73545a683bdc23f5e7a3
       vertices: []
       indices: 
       edges: []

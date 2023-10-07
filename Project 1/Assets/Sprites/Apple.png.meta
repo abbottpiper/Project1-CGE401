@@ -77,10 +77,10 @@ TextureImporter:
       name: Apple_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 39
-        width: 49
-        height: 39
+        x: 2177
+        y: 2177
+        width: 3758
+        height: 5630
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76aeac88f01958644826d05d80468066
+      spriteID: dc76b33f5a6c6ab4098bc2491b4f3690
       vertices: []
       indices: 
       edges: []

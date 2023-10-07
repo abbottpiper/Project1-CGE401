@@ -1466,6 +1466,7 @@ RectTransform:
   - {fileID: 956544173}
   - {fileID: 1434105599}
   - {fileID: 299212686}
+  - {fileID: 1033142284}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1859,6 +1860,7 @@ MonoBehaviour:
   orangeCount: 2
   cornCount: 3
   tomatoCount: 4
+  winCount: 0
 --- !u!114 &647665041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,12 +1873,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 0}
-  healthSystemScript: {fileID: 0}
+  countOrdersScript: {fileID: 647665040}
+  healthSystemScript: {fileID: 1193332521}
   time: 15
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
-  gameWonText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
+  GameWonText: {fileID: 1033142281}
 --- !u!4 &647665042
 Transform:
   m_ObjectHideFlags: 0
@@ -2415,12 +2417,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 0}
-  healthSystemScript: {fileID: 0}
+  countOrdersScript: {fileID: 647665040}
+  healthSystemScript: {fileID: 1193332521}
   time: 15
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
-  gameWonText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
+  GameWonText: {fileID: 1033142281}
 --- !u!114 &827822585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3117,6 +3119,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985965898}
   m_CullTransparentMesh: 0
+--- !u!1 &1033142281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1033142284}
+  - component: {fileID: 1033142283}
+  - component: {fileID: 1033142282}
+  m_Layer: 5
+  m_Name: GameWonText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1033142282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033142281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 59
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'You Win!
+
+'
+--- !u!222 &1033142283
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033142281}
+  m_CullTransparentMesh: 0
+--- !u!224 &1033142284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033142281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433958229}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5, y: 149}
+  m_SizeDelta: {x: 281.6301, y: 67.39992}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1087571883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,12 +3799,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 0}
-  healthSystemScript: {fileID: 0}
+  countOrdersScript: {fileID: 647665040}
+  healthSystemScript: {fileID: 1193332521}
   time: 15
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
-  gameWonText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
+  GameWonText: {fileID: 1033142281}
 --- !u!114 &1510006927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4349,12 +4430,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 0}
-  healthSystemScript: {fileID: 0}
+  countOrdersScript: {fileID: 647665040}
+  healthSystemScript: {fileID: 1193332521}
   time: 15
-  CorrectOrderText: {fileID: 0}
-  WrongOrderText: {fileID: 0}
-  gameWonText: {fileID: 0}
+  CorrectOrderText: {fileID: 694801303}
+  WrongOrderText: {fileID: 956544172}
+  GameWonText: {fileID: 1033142281}
 --- !u!114 &1755688566
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,6 +14,8 @@ public class CountOrders : MonoBehaviour
     public int cornCount = 3;
     public int tomatoCount = 4;
 
+    public int winCount = 0;
+
     private void Start()
     {
         totalCount = 0;
