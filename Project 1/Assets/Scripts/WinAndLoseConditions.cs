@@ -48,6 +48,8 @@ public class WinAndLoseConditions : MonoBehaviour
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderOne"));
         }
         else
         {
