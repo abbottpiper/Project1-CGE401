@@ -10,8 +10,8 @@ listed, the void will call the takeDamage void from the HealthSystem script and 
 text to true so the text is visible to the player. Then an IEnumerator is called, which waits 2 seconds then hides the text from the player. 
 This makes sure the text is only on screen for two seconds. Lastly, it will also set totalFood and totalCount to 0. This script also displays
 the score. Each level has a different score to reach, so each level has its own void to call. Each level checks if the score in their
-a specific void has been reached. If the score is reached in that level, then the You Win text is displayed and a next button appears. 
-Clicking the next button will bring the player to the next level.
+a specific void has been reached. If the score is reached in that level, then the You Win text is displayed and a next button will be moved
+into view of the player. Clicking the next button will bring the player to the next level.
 */
 
 using System.Collections;
@@ -38,11 +38,9 @@ public class WinAndLoseConditions : MonoBehaviour
 
     private void Start()
     {
-        NextButton.gameObject.SetActive(false);
-
         ScoreText = GetComponent<Text>();
 
-        scoreCount = 9;
+        scoreCount = 0;
     }
 
     IEnumerator DelayedCloseWrong()
@@ -63,7 +61,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 3)
         {
             gameWonText.SetActive(true);
-            NextButton.gameObject.SetActive(true);
+            NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
         }
     }
 
@@ -72,7 +70,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 5)
         {
             gameWonText.SetActive(true);
-            NextButton.gameObject.SetActive(true);
+            NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
         }
     }
 
@@ -81,7 +79,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 10)
         {
             gameWonText.SetActive(true);
-            NextButton.gameObject.SetActive(true)
+            NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
         }
     }
 
@@ -90,7 +88,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 15)
         {
             gameWonText.SetActive(true);
-            NextButton.gameObject.SetActive(true);
+            NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
         }
     }
 
