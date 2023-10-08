@@ -604,6 +604,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddTurnipToScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &101973530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,6 +1424,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddBerryToScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &347581886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,6 +1866,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 0}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!114 &439575391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,6 +2655,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 816327706}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!1 &591563058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,6 +2892,17 @@ MonoBehaviour:
       - m_Target: {fileID: 613525785}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddOrangeToScore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3125,6 +3164,17 @@ MonoBehaviour:
       - m_Target: {fileID: 663224963}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddWatermelonToScore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3682,6 +3732,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddCarrotToScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &768190913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4110,6 +4171,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 816327706}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!1 &816327703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,6 +4230,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 816327706}
+  ScoreText1: {fileID: 0}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!114 &816327706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4792,6 +4859,17 @@ MonoBehaviour:
       - m_Target: {fileID: 918911353}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddPotatoToScore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5471,6 +5549,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddTomatoToScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1153864130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6019,6 +6108,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1410996895}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddCornToScore
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6986,6 +7086,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1863925870}
+        m_MethodName: AddBananaToScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1645614980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7176,6 +7287,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 816327706}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!1 &1664501907
 GameObject:
   m_ObjectHideFlags: 0
@@ -7812,6 +7926,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 0}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!4 &1863925872
 Transform:
   m_ObjectHideFlags: 0
@@ -8345,6 +8462,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 816327706}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!1 &1990602765
 GameObject:
   m_ObjectHideFlags: 0
@@ -8950,6 +9070,9 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  ScoreText1: {fileID: 816327706}
+  ScoreText2: {fileID: 0}
+  ScoreText3: {fileID: 0}
 --- !u!1 &2047335610
 GameObject:
   m_ObjectHideFlags: 0

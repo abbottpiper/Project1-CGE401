@@ -49,6 +49,9 @@ public class WinAndLoseConditions : MonoBehaviour
     void Update()
     {
         ScoreText.text = "Score: " + scoreCountT;
+        ScoreText1.text = "Score: " + scoreCount1;
+        ScoreText2.text = "Score: " + scoreCount2;
+        ScoreText3.text = "Score: " + scoreCount3;
 
         if (scoreCountT == 3)
         {
