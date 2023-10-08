@@ -12,6 +12,18 @@ TagManager:
   - OrderThree
   - Fly
   - NextButton
+  - OrderFour
+  - OrderFive
+  - OrderSix
+  - OrderSeven
+  - OrderEight
+  - OrderNine
+  - OrderTen
+  - OrderEleven
+  - OrderTwelve
+  - OrderThirteen
+  - OrderFourteen
+  - OrderFifteen
   layers:
   - Default
   - TransparentFX
