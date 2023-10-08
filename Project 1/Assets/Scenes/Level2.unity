@@ -429,9 +429,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 55973574}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 0}
-  ScoreText3: {fileID: 0}
 --- !u!114 &55973574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,9 +820,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &135373328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,9 +1741,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &326785316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,7 +1876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 613.99994, y: -28}
+  m_AnchoredPosition: {x: -20, y: -45}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360570604
@@ -1906,9 +1897,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 0}
-  ScoreText3: {fileID: 0}
 --- !u!114 &360570605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3169,9 +3157,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 0}
-  ScoreText3: {fileID: 0}
 --- !u!4 &512675011
 Transform:
   m_ObjectHideFlags: 0
@@ -4116,9 +4101,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &712394593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4351,9 +4333,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &762320229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5037,9 +5016,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &958506660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6527,9 +6503,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &1385104586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6685,9 +6658,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &1409194431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9345,9 +9315,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &1991570275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9834,9 +9801,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &2081516714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10343,9 +10307,6 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 0}
-  ScoreText1: {fileID: 0}
-  ScoreText2: {fileID: 55973574}
-  ScoreText3: {fileID: 0}
 --- !u!114 &2121918731
 MonoBehaviour:
   m_ObjectHideFlags: 0

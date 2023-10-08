@@ -22,7 +22,7 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         ScoreText = GetComponent<Text>();
 
-        scoreCount = 4;
+        scoreCount = 0;
     }
 
     IEnumerator DelayedCloseWrong()
