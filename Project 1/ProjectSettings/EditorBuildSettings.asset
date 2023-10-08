@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/TutorialScreen.unity
     guid: c2fde973d9f0856409f0413c3e764a6d
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/fc9f04c9ae110344b9444ba64f2147fa
+    path: 
     guid: fc9f04c9ae110344b9444ba64f2147fa
   - enabled: 1
     path: Assets/Scenes/Level1.unity
@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Garden.unity
     guid: 987c0dc72fa848141ae7da459cb42104
+  - enabled: 1
+    path: Assets/Scenes/GardenScene.unity
+    guid: 1250c69c9bc6a454faf4d5b46c477c52
   m_configObjects: {}
