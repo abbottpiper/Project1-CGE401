@@ -109,4 +109,285 @@ public class WinAndLoseConditions : MonoBehaviour
             countOrdersScript.totalFood = 0;
         }
     }
+
+    public void OrderFour()
+    {
+        if (countOrdersScript.totalFood == 32)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderFour"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderFive()
+    {
+        if (countOrdersScript.totalFood == 27)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderFive"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+
+    public void OrderSix()
+    {
+        if (countOrdersScript.totalFood == 29)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderSix"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+
+    public void OrderSeven()
+    {
+        if (countOrdersScript.totalFood == 20)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderSeven"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+
+    public void OrderEight()
+    {
+        if (countOrdersScript.totalFood == 17)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderEight"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+
+    public void OrderNine()
+    {
+        if (countOrdersScript.totalFood == 28)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderNine"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+
+    public void OrderTen()
+    {
+        if (countOrdersScript.totalFood == 8)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderTen"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderEleven()
+    {
+        if (countOrdersScript.totalFood == 18)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderEleven"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderTwelve()
+    {
+        if (countOrdersScript.totalFood == 31)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderTwelve"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderThirteen()
+    {
+        if (countOrdersScript.totalFood == 40)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderThirteen"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderFourteen()
+    {
+        if (countOrdersScript.totalFood == 30)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderFourteen"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
+
+    public void OrderFifteen()
+    {
+        if (countOrdersScript.totalFood == 22)
+        {
+            scoreCount++;
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderFifteen"));
+        }
+        else
+        {
+            healthSystemScript.TakeDamage();
+
+            WrongOrderText.SetActive(true);
+            StartCoroutine(DelayedCloseWrong());
+
+            countOrdersScript.totalCount = 0;
+            countOrdersScript.totalFood = 0;
+        }
+    }
 }
