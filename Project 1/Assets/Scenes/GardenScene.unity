@@ -1562,6 +1562,7 @@ GameObject:
   - component: {fileID: 285706913}
   - component: {fileID: 285706912}
   - component: {fileID: 285706915}
+  - component: {fileID: 285706916}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: NextButton
@@ -1696,6 +1697,19 @@ MonoBehaviour:
   ScoreText1: {fileID: 0}
   ScoreText2: {fileID: 0}
   ScoreText3: {fileID: 0}
+--- !u!114 &285706916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285706910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ccf0310c81466a448610cf3abb8e289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 285706912}
 --- !u!1 &290112932
 GameObject:
   m_ObjectHideFlags: 0

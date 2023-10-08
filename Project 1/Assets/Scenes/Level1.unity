@@ -1820,6 +1820,7 @@ GameObject:
   - component: {fileID: 439575393}
   - component: {fileID: 439575392}
   - component: {fileID: 439575391}
+  - component: {fileID: 439575394}
   - component: {fileID: 439575390}
   m_Layer: 5
   m_Name: NextButton
@@ -1955,6 +1956,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439575388}
   m_CullTransparentMesh: 0
+--- !u!114 &439575394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439575388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9df3ef88baadb489f2b3521b88af44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 439575391}
 --- !u!1 &452067699
 GameObject:
   m_ObjectHideFlags: 0
