@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿/*
+Denver Heneghan
+ProgressBar.cs
+Project 2
+This code was meant to control the progress bar in the watering minigame. If the mouse was in the right area, the progress would increase.
+This script was unused in the final version of the game.
+*/
+
+using UnityEngine;
 using UnityEngine.UI;
 
 public class ProgressBar : MonoBehaviour

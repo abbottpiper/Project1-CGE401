@@ -1,4 +1,15 @@
-﻿using System.Collections;
+﻿/*
+Denver Heneghan
+HealthSystem.cs
+Project 2
+This script keeps track of the health of the player. It also sets gameOver to false. It makes sure that the health on screen is set to the
+max amount of health allowed. In this case, it is set to three. Then it switches a full heart to an empty heart depending on the players 
+health. If health reaches 0, then gameOver is set to true. This causes the gameOver text to appear, and tells the player to restart. This script
+also allows the player to restart by pressing R if all hearts have been lost. The void takeDamage is also initialized here so it can be called
+in other scripts.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

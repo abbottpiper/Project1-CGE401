@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+Denver Heneghan
+WinAndLoseConditions.cs
+Project 2
+
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,8 +25,12 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public static int scoreCount;
 
+    public Button NextButton;
+
     private void Start()
     {
+        NextButton.gameObject.SetActive(false);
+
         ScoreText = GetComponent<Text>();
 
         scoreCount = 0;
@@ -43,6 +54,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 3)
         {
             gameWonText.SetActive(true);
+            NextButton.gameObject.SetActive(true);
         }
     }
 
@@ -51,6 +63,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 5)
         {
             gameWonText.SetActive(true);
+            NextButton.gameObject.SetActive(true);
         }
     }
 
@@ -59,6 +72,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 10)
         {
             gameWonText.SetActive(true);
+            NextButton.gameObject.SetActive(true);
         }
     }
 
@@ -67,6 +81,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 15)
         {
             gameWonText.SetActive(true);
+            NextButton.gameObject.SetActive(true);
         }
     }
 

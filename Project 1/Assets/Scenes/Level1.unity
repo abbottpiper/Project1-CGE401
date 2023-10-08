@@ -442,6 +442,7 @@ GameObject:
   - component: {fileID: 96836580}
   - component: {fileID: 96836579}
   - component: {fileID: 96836578}
+  - component: {fileID: 96836581}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -514,6 +515,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &96836581
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96836577}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f9bdbe9a307f67e4093a693741ab4ae6, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &101973527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +1943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: -7}
+  m_AnchoredPosition: {x: -51, y: -0}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439575390
@@ -1866,7 +1963,8 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  NextButton: {fileID: 439575391}
 --- !u!114 &439575391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2677,6 +2775,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  NextButton: {fileID: 0}
 --- !u!1 &591563058
 GameObject:
   m_ObjectHideFlags: 0
@@ -4201,6 +4300,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  NextButton: {fileID: 0}
 --- !u!1 &816327703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4257,6 +4357,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 816327706}
+  NextButton: {fileID: 439575391}
 --- !u!114 &816327706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7322,6 +7423,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  NextButton: {fileID: 0}
 --- !u!1 &1664501907
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,7 +8059,8 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  NextButton: {fileID: 439575391}
 --- !u!4 &1863925872
 Transform:
   m_ObjectHideFlags: 0
@@ -8502,6 +8605,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  NextButton: {fileID: 0}
 --- !u!1 &1990602765
 GameObject:
   m_ObjectHideFlags: 0
@@ -9118,6 +9222,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 0}
+  NextButton: {fileID: 0}
 --- !u!1 &2047335610
 GameObject:
   m_ObjectHideFlags: 0

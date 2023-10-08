@@ -1580,14 +1580,13 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 757161990}
+  m_Children: []
   m_Father: {fileID: 433958229}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92, y: -1}
+  m_AnchoredPosition: {x: -57, y: -0}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285706912
@@ -1694,6 +1693,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 285706912}
 --- !u!114 &285706916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2779,6 +2779,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 285706912}
 --- !u!1 &647665039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2839,6 +2840,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 285706912}
 --- !u!4 &647665042
 Transform:
   m_ObjectHideFlags: 0
@@ -3294,85 +3296,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748937088}
   m_CullTransparentMesh: 0
---- !u!1 &757161989
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 757161990}
-  - component: {fileID: 757161992}
-  - component: {fileID: 757161991}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &757161990
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757161989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 285706911}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &757161991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757161989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '
-
-'
---- !u!222 &757161992
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757161989}
-  m_CullTransparentMesh: 0
 --- !u!1 &822838452
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3433,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 0}
 --- !u!114 &827822585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5353,6 +5277,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 0}
 --- !u!114 &1510006927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5857,7 +5782,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f9bdbe9a307f67e4093a693741ab4ae6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.161
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6150,6 +6075,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 956544172}
   gameWonText: {fileID: 437776144}
   ScoreText: {fileID: 646306423}
+  NextButton: {fileID: 0}
 --- !u!114 &1755688566
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 55973574}
   - component: {fileID: 55973573}
   m_Layer: 5
-  m_Name: ScoreText2
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,6 +429,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
   ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &55973574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,7 +796,7 @@ RectTransform:
   m_Children:
   - {fileID: 224546890}
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 31
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -819,7 +820,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &135373328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -873,6 +875,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1716,7 +1729,7 @@ RectTransform:
   m_Children:
   - {fileID: 550568454}
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 32
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1740,7 +1753,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &326785316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1794,6 +1808,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1872,11 +1897,11 @@ RectTransform:
   m_Children:
   - {fileID: 2087536546}
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 37
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: -45}
+  m_AnchoredPosition: {x: -45, y: -5}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360570604
@@ -1896,7 +1921,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &360570605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3156,7 +3182,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!4 &512675011
 Transform:
   m_ObjectHideFlags: 0
@@ -3539,7 +3566,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 34
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4100,7 +4127,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &712394593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4154,6 +4182,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4332,7 +4371,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &762320229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4386,6 +4426,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4460,7 +4511,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 36
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4742,7 +4793,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 38
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5015,7 +5066,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &958506660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5069,6 +5121,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6502,7 +6565,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &1385104586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6556,6 +6620,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6633,7 +6708,7 @@ RectTransform:
   m_Children:
   - {fileID: 1972543364}
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 33
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6657,7 +6732,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &1409194431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6711,6 +6787,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7908,7 +7995,7 @@ RectTransform:
   m_LocalScale: {x: 1.459854, y: 1.459854, z: 1.459854}
   m_Children: []
   m_Father: {fileID: 1717002554}
-  m_RootOrder: 35
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8095,14 +8182,14 @@ RectTransform:
   - {fileID: 978873340}
   - {fileID: 1538708143}
   - {fileID: 2054497207}
-  - {fileID: 135373326}
-  - {fileID: 326785314}
-  - {fileID: 1409194429}
   - {fileID: 605301563}
   - {fileID: 1702730860}
   - {fileID: 786044772}
   - {fileID: 360570603}
   - {fileID: 824449212}
+  - {fileID: 135373326}
+  - {fileID: 326785314}
+  - {fileID: 1409194429}
   - {fileID: 2121918729}
   - {fileID: 712394591}
   - {fileID: 762320227}
@@ -9314,7 +9401,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &1991570275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9368,6 +9456,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9503,6 +9602,7 @@ GameObject:
   - component: {fileID: 2026784475}
   - component: {fileID: 2026784474}
   - component: {fileID: 2026784473}
+  - component: {fileID: 2026784476}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9575,6 +9675,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2026784476
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026784472}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f9bdbe9a307f67e4093a693741ab4ae6, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2054497206
 GameObject:
   m_ObjectHideFlags: 0
@@ -9800,7 +9996,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &2081516714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9854,6 +10051,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10306,7 +10514,8 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 0}
+  ScoreText: {fileID: 55973574}
+  NextButton: {fileID: 360570605}
 --- !u!114 &2121918731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10360,6 +10569,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 824449215}
         m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 55973573}
+        m_MethodName: twoScore
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

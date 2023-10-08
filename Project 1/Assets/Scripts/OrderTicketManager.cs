@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+Denver Heneghan
+OrderTicketManager.cs
+Project 2
+This code was meant to spawn the tickets at certain intervals. After a certain amount of seconds had passed, the tickets would appear.
+This code was not used in the final version of the game.
+ */
+
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 

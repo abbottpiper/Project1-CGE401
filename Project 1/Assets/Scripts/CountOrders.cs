@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿/*
+Denver Heneghan
+CountOrders.cs
+Project 2
+This script keeps track of the values assigned to each fruit and vegetable object. Each object is assigned a number 1 through 10. It also
+initializes totalCount and totalFood. Both of them are set to 0 in Start. There are ten different voids, one for each fruit. Each void adds
+one to the totalCount and it adds the value assigned to the object to totalFood. These voids are then called by objects in the Unity scene,
+or in other scripts.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
