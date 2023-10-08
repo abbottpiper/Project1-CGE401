@@ -2,7 +2,16 @@
 Denver Heneghan
 WinAndLoseConditions.cs
 Project 2
-
+This script keeps track of the win conditions and loss conditions. It also keeps track of the score and the orders. There are fifteen orders
+and each is applied to a ticket object in unity. If an order is called by clicking a button, the void will check if the foodScore is equal
+to a specific number assigned to that order. If the food score has been added up to equal that number, then the object is sought out by its
+tag and destroyed. Next, the score goes up by one, and totalFood and totalCount are reset to zero. If the foodScore does not match the number 
+listed, the void will call the takeDamage void from the HealthSystem script and the player will lose a life. It will also set the wrongOrder
+text to true so the text is visible to the player. Then an IEnumerator is called, which waits 2 seconds then hides the text from the player. 
+This makes sure the text is only on screen for two seconds. Lastly, it will also set totalFood and totalCount to 0. This script also displays
+the score. Each level has a different score to reach, so each level has its own void to call. Each level checks if the score in their
+a specific void has been reached. If the score is reached in that level, then the You Win text is displayed and a next button appears. 
+Clicking the next button will bring the player to the next level.
 */
 
 using System.Collections;
@@ -33,7 +42,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
         ScoreText = GetComponent<Text>();
 
-        scoreCount = 0;
+        scoreCount = 9;
     }
 
     IEnumerator DelayedCloseWrong()
@@ -72,7 +81,7 @@ public class WinAndLoseConditions : MonoBehaviour
         if (scoreCount == 10)
         {
             gameWonText.SetActive(true);
-            NextButton.gameObject.SetActive(true);
+            NextButton.gameObject.SetActive(true)
         }
     }
 
