@@ -11483,6 +11483,7 @@ GameObject:
   - component: {fileID: 2070528498}
   - component: {fileID: 2070528497}
   - component: {fileID: 2070528496}
+  - component: {fileID: 2070528500}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: NextButton
@@ -11507,7 +11508,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 613.99994, y: -28}
+  m_AnchoredPosition: {x: 581, y: -28}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070528496
@@ -11617,6 +11618,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070528494}
   m_CullTransparentMesh: 0
+--- !u!114 &2070528500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070528494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ce88966ec02d64a8e90be509185fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 2070528497}
 --- !u!1 &2090171793
 GameObject:
   m_ObjectHideFlags: 0
