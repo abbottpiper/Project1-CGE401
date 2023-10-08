@@ -1134,13 +1134,14 @@ GameObject:
   - component: {fileID: 285706914}
   - component: {fileID: 285706913}
   - component: {fileID: 285706912}
+  - component: {fileID: 285706915}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: NextButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &285706911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1158,7 +1159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: -17}
+  m_AnchoredPosition: {x: 614, y: -28}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285706912
@@ -1200,7 +1201,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 285706913}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646306425}
+        m_MethodName: movePos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285706913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,6 +1248,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285706910}
   m_CullTransparentMesh: 0
+--- !u!114 &285706915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285706910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countOrdersScript: {fileID: 647665040}
+  healthSystemScript: {fileID: 1193332521}
+  timerScript: {fileID: 1367162463}
+  WrongOrderText: {fileID: 956544172}
+  gameWonText: {fileID: 437776144}
+  ScoreText: {fileID: 646306423}
 --- !u!1 &290112932
 GameObject:
   m_ObjectHideFlags: 0

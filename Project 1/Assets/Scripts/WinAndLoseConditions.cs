@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WinAndLoseConditions : MonoBehaviour
 {
@@ -19,7 +20,7 @@ public class WinAndLoseConditions : MonoBehaviour
     private void Start()
     {
         ScoreText = GetComponent<Text>();
-        scoreCount = 0;
+        scoreCount = 2;
     }
 
     IEnumerator DelayedCloseWrong()
@@ -71,6 +72,8 @@ public class WinAndLoseConditions : MonoBehaviour
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderTwo"));
         }
         else
         {
@@ -92,6 +95,8 @@ public class WinAndLoseConditions : MonoBehaviour
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
+
+            Destroy(GameObject.FindGameObjectWithTag("OrderThree"));
         }
         else
         {
