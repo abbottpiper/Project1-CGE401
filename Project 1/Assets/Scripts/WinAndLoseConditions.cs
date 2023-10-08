@@ -15,12 +15,27 @@ public class WinAndLoseConditions : MonoBehaviour
     public GameObject gameWonText;
 
     public Text ScoreText;
-    public static int scoreCount;
+    public Text ScoreText1;
+    public Text ScoreText2;
+    public Text ScoreText3;
+
+    public static int scoreCountT;
+    public static int scoreCount1;
+    public static int scoreCount2;
+    public static int scoreCount3;
+
 
     private void Start()
     {
         ScoreText = GetComponent<Text>();
-        scoreCount = 2;
+        ScoreText1 = GetComponent<Text>();
+        ScoreText2 = GetComponent<Text>();
+        ScoreText3 = GetComponent<Text>();
+
+        scoreCountT = 0;
+        scoreCount1 = 0;
+        scoreCount2 = 0;
+        scoreCount3 = 0;
     }
 
     IEnumerator DelayedCloseWrong()
@@ -33,9 +48,24 @@ public class WinAndLoseConditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Score: " + scoreCount;
+        ScoreText.text = "Score: " + scoreCountT;
 
-        if (scoreCount == 3)
+        if (scoreCountT == 3)
+        {
+            gameWonText.SetActive(true);
+        }
+
+        if (scoreCount1 == 5)
+        {
+            gameWonText.SetActive(true);
+        }
+
+        if (scoreCount2 == 10)
+        {
+            gameWonText.SetActive(true);
+        }
+
+        if (scoreCount3 == 15)
         {
             gameWonText.SetActive(true);
         }
@@ -45,7 +75,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 4)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -68,7 +101,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 10)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -91,7 +127,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 9)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -114,7 +153,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 32)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -137,7 +179,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 27)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -161,7 +206,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 29)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -185,7 +233,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 20)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -209,7 +260,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 17)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -233,7 +287,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 28)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -257,7 +314,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 8)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -280,7 +340,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 18)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -303,7 +366,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 31)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -326,7 +392,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 40)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -349,7 +418,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 30)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;
@@ -372,7 +444,10 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         if (countOrdersScript.totalFood == 22)
         {
-            scoreCount++;
+            scoreCountT++;
+            scoreCount1++;
+            scoreCount2++;
+            scoreCount3++;
 
             countOrdersScript.totalCount = 0;
             countOrdersScript.totalFood = 0;

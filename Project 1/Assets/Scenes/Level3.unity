@@ -551,7 +551,7 @@ RectTransform:
   m_Children:
   - {fileID: 1912878846}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -575,7 +575,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &72102976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,7 +706,7 @@ RectTransform:
   m_Children:
   - {fileID: 2014276589}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -730,7 +730,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &83784140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbd96946473b3a44aa972ad3421e531e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b6fdbec383726c49a018e6b072a3c6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1858,8 +1858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.6, y: -185.7}
-  m_SizeDelta: {x: 38.916443, y: 61.38765}
+  m_AnchoredPosition: {x: 234.8, y: -184}
+  m_SizeDelta: {x: 35.362022, y: 57.98227}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313636173
 MonoBehaviour:
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &313636174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2113,7 +2113,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &372829441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2649,7 +2649,7 @@ RectTransform:
   m_Children:
   - {fileID: 740266868}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2673,7 +2673,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &518051261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2804,7 +2804,7 @@ RectTransform:
   m_Children:
   - {fileID: 1362424057}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2828,7 +2828,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &530921836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3084,7 +3084,7 @@ RectTransform:
   m_Children:
   - {fileID: 1669745906}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3108,7 +3108,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &612696082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3189,7 +3189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbd96946473b3a44aa972ad3421e531e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 438e7b0e4efdde24a9dd64a2855adeb1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3239,12 +3239,12 @@ RectTransform:
   m_Children:
   - {fileID: 873151884}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59.1, y: -181.3}
-  m_SizeDelta: {x: 31.89579, y: 42.716003}
+  m_AnchoredPosition: {x: -57.254, y: -184.59}
+  m_SizeDelta: {x: 35.587044, y: 49.294464}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &622067305
 MonoBehaviour:
@@ -3263,7 +3263,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &622067306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3344,7 +3344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f3972c67b5462904ebe8702853797c47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cf696bd887d9e324b9e9e592c2a2e02e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3724,7 +3724,7 @@ RectTransform:
   m_Children:
   - {fileID: 1085117476}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3748,7 +3748,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &674494618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4110,7 +4110,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!4 &730509704
 Transform:
   m_ObjectHideFlags: 0
@@ -6651,7 +6651,7 @@ RectTransform:
   m_Children:
   - {fileID: 126526604}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 48
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6675,7 +6675,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1156594163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6756,7 +6756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0611c1df3e56774f957c736e31bc1cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3e4ddbe79dd0f2541ab6d54f1850da5e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8183,7 +8183,7 @@ RectTransform:
   m_Children:
   - {fileID: 2053987087}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8207,7 +8207,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1466490528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8288,7 +8288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f3972c67b5462904ebe8702853797c47, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57798d47bfcd402478696d70594b4698, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8587,102 +8587,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542681266}
   m_CullTransparentMesh: 0
---- !u!1 &1573096618
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1573096622}
-  - component: {fileID: 1573096621}
-  - component: {fileID: 1573096619}
-  - component: {fileID: 1573096620}
-  m_Layer: 5
-  m_Name: ScoreText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1573096619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573096618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Score:'
---- !u!114 &1573096620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573096618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 730509702}
-  healthSystemScript: {fileID: 473813128}
-  timerScript: {fileID: 2037621910}
-  WrongOrderText: {fileID: 1934910386}
-  gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
---- !u!222 &1573096621
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573096618}
-  m_CullTransparentMesh: 0
---- !u!224 &1573096622
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573096618}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1896382813}
-  m_RootOrder: 38
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 320.09998, y: 65.900024}
-  m_SizeDelta: {x: 163.07594, y: 46.87712}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1580669945
 GameObject:
   m_ObjectHideFlags: 0
@@ -8740,7 +8644,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1580669948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9651,6 +9555,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846503729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1846503730}
+  - component: {fileID: 1846503733}
+  - component: {fileID: 1846503732}
+  - component: {fileID: 1846503731}
+  m_Layer: 5
+  m_Name: ScoreText3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1846503730
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846503729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1896382813}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 320.0999, y: 65.900024}
+  m_SizeDelta: {x: 163.07594, y: 46.87712}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1846503731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846503729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countOrdersScript: {fileID: 730509702}
+  healthSystemScript: {fileID: 473813128}
+  timerScript: {fileID: 2037621910}
+  WrongOrderText: {fileID: 1934910386}
+  gameWonText: {fileID: 276652737}
+  ScoreText: {fileID: 1846503732}
+--- !u!114 &1846503732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846503729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Score:'
+--- !u!222 &1846503733
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846503729}
+  m_CullTransparentMesh: 0
 --- !u!1 &1896382812
 GameObject:
   m_ObjectHideFlags: 0
@@ -9719,7 +9719,6 @@ RectTransform:
   - {fileID: 19340466}
   - {fileID: 276652738}
   - {fileID: 2070528495}
-  - {fileID: 1573096622}
   - {fileID: 2037621907}
   - {fileID: 518051259}
   - {fileID: 72102974}
@@ -9733,6 +9732,7 @@ RectTransform:
   - {fileID: 1466490526}
   - {fileID: 612696080}
   - {fileID: 1956368934}
+  - {fileID: 1846503730}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9970,7 +9970,7 @@ RectTransform:
   m_Children:
   - {fileID: 1009870532}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9994,7 +9994,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1910911318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10075,7 +10075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0611c1df3e56774f957c736e31bc1cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15b9d3c7066c8b041be21437c35577c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10401,7 +10401,7 @@ RectTransform:
   m_Children:
   - {fileID: 1044889075}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10425,7 +10425,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1916412941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10635,7 +10635,7 @@ RectTransform:
   m_Children:
   - {fileID: 1491471120}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10659,7 +10659,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &1956368936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10740,7 +10740,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbd96946473b3a44aa972ad3421e531e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 487b342ddeab9c24687ed218c5063bdd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11099,7 +11099,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11377,7 +11377,7 @@ MonoBehaviour:
   timerScript: {fileID: 2037621910}
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
-  ScoreText: {fileID: 1573096619}
+  ScoreText: {fileID: 0}
 --- !u!114 &2070528497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11418,7 +11418,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573096620}
+      - m_Target: {fileID: 0}
         m_MethodName: movePos
         m_Mode: 1
         m_Arguments:
