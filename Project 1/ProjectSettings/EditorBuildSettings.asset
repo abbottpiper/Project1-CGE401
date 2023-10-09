@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: c2fde973d9f0856409f0413c3e764a6d
   - enabled: 0
     path: 
-    guid: fc9f04c9ae110344b9444ba64f2147fa
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 8084155d6108e6e46b14c6b3a84baf90
@@ -23,13 +23,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: dc1700bcb72c92946965d8555f60fa0b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Watering.unity
     guid: 1545fa507317b8546b9152a55ec7812d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FlySwatter.unity
     guid: 4c688e13f3f26844f9052a122788e363
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Garden.unity
     guid: 987c0dc72fa848141ae7da459cb42104
   - enabled: 1
