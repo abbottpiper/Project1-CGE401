@@ -576,7 +576,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &72102976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,7 +744,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &83784140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,7 +1993,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &313636174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2238,7 +2241,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &372829441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2810,7 +2814,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &518051261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2977,7 +2982,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &530921836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3269,7 +3275,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &612696082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3436,7 +3443,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &622067306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3944,7 +3952,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &674494618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4329,6 +4338,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
+  scoreCount: 0
   NextButton: {fileID: 2070528497}
 --- !u!4 &730509704
 Transform:
@@ -6928,7 +6938,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1156594163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8494,7 +8505,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1466490528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8954,7 +8966,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1580669948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10029,6 +10042,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
+  scoreCount: 0
   NextButton: {fileID: 2070528497}
 --- !u!114 &1846503732
 MonoBehaviour:
@@ -10415,7 +10429,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1910911318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10858,7 +10873,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1916412941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11104,7 +11120,8 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
-  NextButton: {fileID: 0}
+  scoreCount: 0
+  NextButton: {fileID: 2070528497}
 --- !u!114 &1956368936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11835,6 +11852,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1934910386}
   gameWonText: {fileID: 276652737}
   ScoreText: {fileID: 1846503732}
+  scoreCount: 0
   NextButton: {fileID: 2070528497}
 --- !u!114 &2070528497
 MonoBehaviour:

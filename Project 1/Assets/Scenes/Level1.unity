@@ -1964,6 +1964,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 816327706}
+  scoreCount: 0
   NextButton: {fileID: 439575391}
 --- !u!114 &439575391
 MonoBehaviour:
@@ -2774,8 +2775,9 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
-  NextButton: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  scoreCount: 0
+  NextButton: {fileID: 439575391}
 --- !u!1 &591563058
 GameObject:
   m_ObjectHideFlags: 0
@@ -4300,8 +4302,9 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
-  NextButton: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  scoreCount: 0
+  NextButton: {fileID: 439575391}
 --- !u!1 &816327703
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,6 +4361,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 816327706}
+  scoreCount: 0
   NextButton: {fileID: 439575391}
 --- !u!114 &816327706
 MonoBehaviour:
@@ -7500,8 +7504,9 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
-  NextButton: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  scoreCount: 0
+  NextButton: {fileID: 439575391}
 --- !u!1 &1664501907
 GameObject:
   m_ObjectHideFlags: 0
@@ -8138,6 +8143,7 @@ MonoBehaviour:
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
   ScoreText: {fileID: 816327706}
+  scoreCount: 0
   NextButton: {fileID: 439575391}
 --- !u!4 &1863925872
 Transform:
@@ -8682,8 +8688,9 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
-  NextButton: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  scoreCount: 0
+  NextButton: {fileID: 439575391}
 --- !u!1 &1990602765
 GameObject:
   m_ObjectHideFlags: 0
@@ -9299,8 +9306,9 @@ MonoBehaviour:
   timerScript: {fileID: 452067702}
   WrongOrderText: {fileID: 1623998346}
   gameWonText: {fileID: 788276296}
-  ScoreText: {fileID: 0}
-  NextButton: {fileID: 0}
+  ScoreText: {fileID: 816327706}
+  scoreCount: 0
+  NextButton: {fileID: 439575391}
 --- !u!1 &2047335610
 GameObject:
   m_ObjectHideFlags: 0

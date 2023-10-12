@@ -32,7 +32,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public Text ScoreText;
 
-    public static int scoreCount;
+    public int scoreCount = 0;
 
     public Button NextButton;
 
@@ -40,7 +40,7 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         ScoreText = GetComponent<Text>();
 
-        scoreCount = 0;
+        ScoreText.text = "Score: 0";
     }
 
     IEnumerator DelayedCloseWrong()
@@ -53,7 +53,7 @@ public class WinAndLoseConditions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ScoreText.text = "Score: " + scoreCount;
+        //ScoreText.text = "Score: " + scoreCount;
     }
 
     public void tScore()
