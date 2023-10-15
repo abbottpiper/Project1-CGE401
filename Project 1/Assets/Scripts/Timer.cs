@@ -7,7 +7,7 @@ count down once every frame. I would then change the text on screen to match the
 timer reached 0, the script would call the takeDamage void from the HealthSystem script, and the player would lose a heart. Then the timer
 would add another fifteen seconds to it, and because it would again be above zero, the process would repeat. This means the timer will restart
 automatically once it hits zero. There is also the restart void which sets the timer and the text on screen back to the number 
-fifteen when it is called. It can be called when the ticket objects in unity are clicked.
+fifteen when it is called. It can be called when the ticket objects in unity are clicked. The timer only starts once the player hits space.
  */
 
 using System.Collections;
@@ -21,17 +21,27 @@ public class Timer : MonoBehaviour
 
     public float startTime = 15;
 
+    public bool beginTimer = false;
+
     public Text TimerText;
 
     public void Update()
     {
-        startTime -= Time.deltaTime;
-        TimerText.text = (startTime).ToString("0");
-
-        if (startTime < 0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            startTime += 15;
-            healthSystemScript.TakeDamage();
+            beginTimer = true;
+        }
+
+        if (beginTimer == true)
+        {
+            startTime -= Time.deltaTime;
+            TimerText.text = (startTime).ToString("0");
+
+            if (startTime < 0)
+            {
+                startTime += 15;
+                healthSystemScript.TakeDamage();
+            }
         }
     }
 

@@ -40,7 +40,7 @@ public class WinAndLoseConditions : MonoBehaviour
     {
         ScoreText = GetComponent<Text>();
 
-        ScoreText.text = "Score: 0";
+        //ScoreText.text = "Score: 0";
     }
 
     IEnumerator DelayedCloseWrong()
