@@ -30,6 +30,26 @@ public class CountOrders : MonoBehaviour
     public int turnipCount = 7;
     public int carrotCount = 5;
 
+    public GameObject Apple1;
+    public GameObject Apple2;
+    public GameObject Apple3;
+    public GameObject Apple4;
+
+    public GameObject Orange1;
+    public GameObject Orange2;
+    public GameObject Orange3;
+    public GameObject Orange4;
+
+    public GameObject Tomato1;
+    public GameObject Tomato2;
+    public GameObject Tomato3;
+    public GameObject Tomato4;
+
+    public GameObject Corn1;
+    public GameObject Corn2;
+    public GameObject Corn3;
+    public GameObject Corn4;
+
     private void Start()
     {
         totalCount = 0;
@@ -46,12 +66,46 @@ public class CountOrders : MonoBehaviour
     {
         totalCount++;
         totalFood += appleCount;
+
+        if (totalCount == 1)
+        {
+            Apple1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Apple2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Apple3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Apple4.gameObject.SetActive(true);
+        }
     }
 
     public void AddOrangeToScore()
     {
         totalCount++;
         totalFood += orangeCount;
+
+        if (totalCount == 1)
+        {
+            Orange1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Orange2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Orange3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Orange4.gameObject.SetActive(true);
+        }
     }
 
     public void AddBananaToScore()
