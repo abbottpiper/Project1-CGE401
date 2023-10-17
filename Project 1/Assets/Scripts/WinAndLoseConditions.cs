@@ -30,30 +30,15 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public GameObject gameWonText;
 
-    public Text ScoreText;
-
     public int scoreCount = 0;
 
     public Button NextButton;
-
-    private void Start()
-    {
-        ScoreText = GetComponent<Text>();
-
-        //ScoreText.text = "Score: 0";
-    }
 
     IEnumerator DelayedCloseWrong()
     {
         yield return new WaitForSeconds(2.0f);
 
         WrongOrderText.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //ScoreText.text = "Score: " + scoreCount;
     }
 
     public void tScore()

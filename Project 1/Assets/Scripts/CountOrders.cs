@@ -36,6 +36,12 @@ public class CountOrders : MonoBehaviour
         totalFood = 0;
     }
 
+    public void Clear()
+    {
+        totalCount = 0;
+        totalFood = 0;
+    }
+
     public void AddAppleToScore()
     {
         totalCount++;
