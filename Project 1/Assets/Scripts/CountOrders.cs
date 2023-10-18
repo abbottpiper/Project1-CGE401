@@ -40,6 +40,21 @@ public class CountOrders : MonoBehaviour
     public GameObject Orange3;
     public GameObject Orange4;
 
+    public GameObject Banana1;
+    public GameObject Banana2;
+    public GameObject Banana3;
+    public GameObject Banana4;
+
+    public GameObject Watermelon1;
+    public GameObject Watermelon2;
+    public GameObject Watermelon3;
+    public GameObject Watermelon4;
+
+    public GameObject Berry1;
+    public GameObject Berry2;
+    public GameObject Berry3;
+    public GameObject Berry4;
+
     public GameObject Tomato1;
     public GameObject Tomato2;
     public GameObject Tomato3;
@@ -49,6 +64,21 @@ public class CountOrders : MonoBehaviour
     public GameObject Corn2;
     public GameObject Corn3;
     public GameObject Corn4;
+
+    public GameObject Potato1;
+    public GameObject Potato2;
+    public GameObject Potato3;
+    public GameObject Potato4;
+
+    public GameObject Turnip1;
+    public GameObject Turnip2;
+    public GameObject Turnip3;
+    public GameObject Turnip4;
+
+    public GameObject Carrot1;
+    public GameObject Carrot2;
+    public GameObject Carrot3;
+    public GameObject Carrot4;
 
     private void Start()
     {
@@ -112,18 +142,69 @@ public class CountOrders : MonoBehaviour
     {
         totalCount++;
         totalFood += bananaCount;
+
+        if (totalCount == 1)
+        {
+            Banana1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Banana2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Banana3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Banana4.gameObject.SetActive(true);
+        }
     }
 
     public void AddWatermelonToScore()
     {
         totalCount++;
         totalFood += watermelonCount;
+
+        if (totalCount == 1)
+        {
+            Watermelon1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Watermelon2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Watermelon3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Watermelon4.gameObject.SetActive(true);
+        }
     }
 
     public void AddBerryToScore()
     {
         totalCount++;
         totalFood += berryCount;
+
+        if (totalCount == 1)
+        {
+            Berry1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Berry2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Berry3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Berry4.gameObject.SetActive(true);
+        }
     }
 
     public void AddCornToScore()
@@ -176,17 +257,69 @@ public class CountOrders : MonoBehaviour
     {
         totalCount++;
         totalFood += potatoCount;
+
+        if (totalCount == 1)
+        {
+            Potato1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Potato2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Potato3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Potato4.gameObject.SetActive(true);
+        }
     }
 
     public void AddTurnipToScore()
     {
         totalCount++;
         totalFood += turnipCount;
+
+
+        if (totalCount == 1)
+        {
+            Turnip1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Turnip2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Turnip3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Turnip4.gameObject.SetActive(true);
+        }
     }
 
     public void AddCarrotToScore()
     {
         totalCount++;
         totalFood += carrotCount;
+
+        if (totalCount == 1)
+        {
+            Carrot1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Carrot2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Carrot3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Carrot4.gameObject.SetActive(true);
+        }
     }
 }
