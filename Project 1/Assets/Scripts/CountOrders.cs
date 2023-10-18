@@ -130,12 +130,46 @@ public class CountOrders : MonoBehaviour
     {
         totalCount++;
         totalFood += cornCount;
+
+        if (totalCount == 1)
+        {
+            Corn1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Corn2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Corn3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Corn4.gameObject.SetActive(true);
+        }
     }
 
     public void AddTomatoToScore()
     {
         totalCount++;
         totalFood += tomatoCount;
+
+        if (totalCount == 1)
+        {
+            Tomato1.gameObject.SetActive(true);
+        }
+        else if (totalCount == 2)
+        {
+            Tomato2.gameObject.SetActive(true);
+        }
+        else if (totalCount == 3)
+        {
+            Tomato3.gameObject.SetActive(true);
+        }
+        else if (totalCount == 4)
+        {
+            Tomato4.gameObject.SetActive(true);
+        }
     }
 
     public void AddPotatoToScore()
