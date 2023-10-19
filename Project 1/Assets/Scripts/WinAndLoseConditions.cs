@@ -30,7 +30,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public GameObject gameWonText;
 
-    public int scoreCount = 0;
+    public int scoreCount;
 
     public Button NextButton;
 
