@@ -88,8 +88,8 @@ public class CountOrders : MonoBehaviour
 
     public void Clear()
     {
-        totalCount = 0;
         totalFood = 0;
+        totalCount = 0;
     }
 
     public void AddAppleToScore()

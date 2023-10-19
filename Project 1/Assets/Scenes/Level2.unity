@@ -428,7 +428,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &55973574
@@ -821,7 +820,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &135373328
@@ -1755,7 +1753,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &326785316
@@ -1924,7 +1921,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &360570605
@@ -3169,6 +3165,46 @@ MonoBehaviour:
   potatoCount: 6
   turnipCount: 7
   carrotCount: 5
+  Apple1: {fileID: 0}
+  Apple2: {fileID: 0}
+  Apple3: {fileID: 0}
+  Apple4: {fileID: 0}
+  Orange1: {fileID: 0}
+  Orange2: {fileID: 0}
+  Orange3: {fileID: 0}
+  Orange4: {fileID: 0}
+  Banana1: {fileID: 0}
+  Banana2: {fileID: 0}
+  Banana3: {fileID: 0}
+  Banana4: {fileID: 0}
+  Watermelon1: {fileID: 0}
+  Watermelon2: {fileID: 0}
+  Watermelon3: {fileID: 0}
+  Watermelon4: {fileID: 0}
+  Berry1: {fileID: 0}
+  Berry2: {fileID: 0}
+  Berry3: {fileID: 0}
+  Berry4: {fileID: 0}
+  Tomato1: {fileID: 0}
+  Tomato2: {fileID: 0}
+  Tomato3: {fileID: 0}
+  Tomato4: {fileID: 0}
+  Corn1: {fileID: 0}
+  Corn2: {fileID: 0}
+  Corn3: {fileID: 0}
+  Corn4: {fileID: 0}
+  Potato1: {fileID: 0}
+  Potato2: {fileID: 0}
+  Potato3: {fileID: 0}
+  Potato4: {fileID: 0}
+  Turnip1: {fileID: 0}
+  Turnip2: {fileID: 0}
+  Turnip3: {fileID: 0}
+  Turnip4: {fileID: 0}
+  Carrot1: {fileID: 0}
+  Carrot2: {fileID: 0}
+  Carrot3: {fileID: 0}
+  Carrot4: {fileID: 0}
 --- !u!114 &512675010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3186,7 +3222,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!4 &512675011
@@ -4132,7 +4167,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &712394593
@@ -4377,7 +4411,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &762320229
@@ -4752,7 +4785,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f0f986ac002cc3b448566d0bb7600470, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d3b0e859165d32b4b95a65f4f015465a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4863,6 +4896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSystemScript: {fileID: 1797593253}
   startTime: 15
+  beginTimer: 0
   TimerText: {fileID: 824449213}
 --- !u!1 &918443952
 GameObject:
@@ -5073,7 +5107,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &958506660
@@ -6573,7 +6606,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &1385104586
@@ -6741,7 +6773,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &1409194431
@@ -9489,7 +9520,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &1991570275
@@ -10085,7 +10115,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &2081516714
@@ -10604,7 +10633,6 @@ MonoBehaviour:
   timerScript: {fileID: 824449215}
   WrongOrderText: {fileID: 605301562}
   gameWonText: {fileID: 786044771}
-  ScoreText: {fileID: 55973574}
   scoreCount: 0
   NextButton: {fileID: 360570605}
 --- !u!114 &2121918731
