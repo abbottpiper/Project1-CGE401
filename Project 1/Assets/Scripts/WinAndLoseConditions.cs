@@ -30,7 +30,7 @@ public class WinAndLoseConditions : MonoBehaviour
 
     public GameObject gameWonText;
 
-    public int scoreCount;
+    public int scoreCount = 0;
 
     public Button NextButton;
 
@@ -47,6 +47,7 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             gameWonText.SetActive(true);
             NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
+            Time.timeScale = 0;
         }
     }
 
@@ -56,6 +57,7 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             gameWonText.SetActive(true);
             NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
+            Time.timeScale = 0;
         }
     }
 
@@ -65,6 +67,8 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             gameWonText.SetActive(true);
             NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
+            Time.timeScale = 0;
+
         }
     }
 

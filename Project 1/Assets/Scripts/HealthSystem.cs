@@ -64,11 +64,13 @@ public class HealthSystem : MonoBehaviour
         {
             gameOver = true;
             gameOverText.SetActive(true);
+            Time.timeScale = 0;
 
             //Press R to restart if game is over
             if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                Time.timeScale = 1;
             }
         }
 

@@ -24,6 +24,16 @@ TagManager:
   - OrderThirteen
   - OrderFourteen
   - OrderFifteen
+  - GP1
+  - GP2
+  - SeedsApple
+  - SeedsCorn
+  - SeedsOrange
+  - SeedsTomato
+  - TimerHolder
+  - Bag
+  - Canvas
+  - Timer
   layers:
   - Default
   - TransparentFX

@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 30054869}
   m_Layer: 5
   m_Name: SeedsOrange
-  m_TagString: Untagged
+  m_TagString: SeedsOrange
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 51745128}
   m_Layer: 0
   m_Name: GardenPlotFruit
-  m_TagString: Untagged
+  m_TagString: GP1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 70578222}
   m_Layer: 5
   m_Name: TutorialText3
-  m_TagString: Untagged
+  m_TagString: TT3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2271,7 +2271,7 @@ GameObject:
   - component: {fileID: 299212687}
   m_Layer: 5
   m_Name: TutorialText2
-  m_TagString: Untagged
+  m_TagString: TT2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2586,7 +2586,7 @@ GameObject:
   - component: {fileID: 433958226}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4128,7 +4128,7 @@ GameObject:
   - component: {fileID: 748937090}
   m_Layer: 5
   m_Name: Circle3 (1)
-  m_TagString: Untagged
+  m_TagString: C7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4278,7 +4278,7 @@ GameObject:
   - component: {fileID: 822838453}
   m_Layer: 0
   m_Name: bag
-  m_TagString: Untagged
+  m_TagString: Bag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5433,7 +5433,7 @@ GameObject:
   - component: {fileID: 982546037}
   m_Layer: 5
   m_Name: SeedsCorn
-  m_TagString: Untagged
+  m_TagString: SeedsCorn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5616,7 @@ GameObject:
   - component: {fileID: 985965900}
   m_Layer: 5
   m_Name: SeedsApple
-  m_TagString: Untagged
+  m_TagString: SeedsApple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6559,7 +6559,7 @@ GameObject:
   - component: {fileID: 1274299963}
   m_Layer: 5
   m_Name: TutorialText4
-  m_TagString: Untagged
+  m_TagString: TT4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6653,7 +6653,7 @@ GameObject:
   - component: {fileID: 1290103404}
   m_Layer: 5
   m_Name: box1
-  m_TagString: Untagged
+  m_TagString: B1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6738,7 +6738,7 @@ GameObject:
   - component: {fileID: 1358992788}
   m_Layer: 0
   m_Name: GardenPlotVegtable
-  m_TagString: Untagged
+  m_TagString: GP2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6845,7 +6845,7 @@ GameObject:
   - component: {fileID: 1367162462}
   m_Layer: 5
   m_Name: TimerText
-  m_TagString: Untagged
+  m_TagString: Timer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7190,7 +7190,7 @@ GameObject:
   - component: {fileID: 1449905422}
   m_Layer: 0
   m_Name: TimerHolder
-  m_TagString: Untagged
+  m_TagString: TimerHolder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7411,7 +7411,7 @@ GameObject:
   - component: {fileID: 1478326339}
   m_Layer: 5
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: C5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9433,7 +9433,7 @@ GameObject:
   - component: {fileID: 1789661614}
   m_Layer: 5
   m_Name: box1 (1)
-  m_TagString: Untagged
+  m_TagString: B2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10363,7 +10363,7 @@ GameObject:
   - component: {fileID: 1962448095}
   m_Layer: 5
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: C6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10438,7 +10438,7 @@ GameObject:
   - component: {fileID: 2001158699}
   m_Layer: 5
   m_Name: SeedsTomato
-  m_TagString: Untagged
+  m_TagString: SeedsTomato
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
