@@ -68,7 +68,6 @@ public class WinAndLoseConditions : MonoBehaviour
             gameWonText.SetActive(true);
             NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
             Time.timeScale = 0;
-
         }
     }
 
@@ -78,6 +77,7 @@ public class WinAndLoseConditions : MonoBehaviour
         {
             gameWonText.SetActive(true);
             NextButton.gameObject.transform.localPosition = new Vector3(-45, -5, 0);
+            Time.timeScale = 0;
         }
     }
 

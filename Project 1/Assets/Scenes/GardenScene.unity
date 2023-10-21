@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 30054872}
   - component: {fileID: 30054870}
   - component: {fileID: 30054869}
+  - component: {fileID: 30054874}
   m_Layer: 5
   m_Name: SeedsOrange
   m_TagString: SeedsOrange
@@ -451,6 +452,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDestroy: {fileID: 1434105600}
+--- !u!114 &30054874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30054867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &51745125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,7 +2093,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -74, y: 339}
+  m_AnchoredPosition: {x: -316, y: 670}
   m_SizeDelta: {x: 295.6955, y: 145.72006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &285706912
@@ -4151,7 +4171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 152}
+  m_AnchoredPosition: {x: -17, y: 139}
   m_SizeDelta: {x: 425.39096, y: 79.05879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &669573929
@@ -4654,6 +4674,7 @@ GameObject:
   - component: {fileID: 827822586}
   - component: {fileID: 827822585}
   - component: {fileID: 827822584}
+  - component: {fileID: 827822588}
   m_Layer: 5
   m_Name: OrderTwo
   m_TagString: OrderTwo
@@ -4984,6 +5005,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827822582}
   m_CullTransparentMesh: 0
+--- !u!114 &827822588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827822582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &833960795
 GameObject:
   m_ObjectHideFlags: 0
@@ -5727,6 +5767,7 @@ GameObject:
   - component: {fileID: 982546040}
   - component: {fileID: 982546038}
   - component: {fileID: 982546037}
+  - component: {fileID: 982546042}
   m_Layer: 5
   m_Name: SeedsCorn
   m_TagString: SeedsCorn
@@ -5896,6 +5937,25 @@ MonoBehaviour:
   imagesToEnable:
   - {fileID: 1478326339}
   - {fileID: 1962448095}
+--- !u!114 &982546042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982546035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &985965898
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,6 +5970,7 @@ GameObject:
   - component: {fileID: 985965903}
   - component: {fileID: 985965901}
   - component: {fileID: 985965900}
+  - component: {fileID: 985965905}
   m_Layer: 5
   m_Name: SeedsApple
   m_TagString: SeedsApple
@@ -6079,6 +6140,25 @@ MonoBehaviour:
   imagesToEnable:
   - {fileID: 1478326339}
   - {fileID: 1962448095}
+--- !u!114 &985965905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985965898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &993048357
 GameObject:
   m_ObjectHideFlags: 0
@@ -7212,7 +7292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSystemScript: {fileID: 1193332521}
-  startTime: 30
+  startTime: 25
   beginTimer: 0
   TimerText: {fileID: 1367162462}
 --- !u!222 &1367162464
@@ -7858,6 +7938,7 @@ GameObject:
   - component: {fileID: 1510006928}
   - component: {fileID: 1510006927}
   - component: {fileID: 1510006926}
+  - component: {fileID: 1510006930}
   m_Layer: 5
   m_Name: OrderOne
   m_TagString: OrderOne
@@ -8188,6 +8269,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510006924}
   m_CullTransparentMesh: 0
+--- !u!114 &1510006930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510006924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &1510416153
 GameObject:
   m_ObjectHideFlags: 0
@@ -9225,6 +9325,7 @@ GameObject:
   - component: {fileID: 1755688567}
   - component: {fileID: 1755688566}
   - component: {fileID: 1755688565}
+  - component: {fileID: 1755688569}
   m_Layer: 5
   m_Name: OrderThree
   m_TagString: OrderThree
@@ -9555,6 +9656,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755688563}
   m_CullTransparentMesh: 0
+--- !u!114 &1755688569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755688563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &1765533384
 GameObject:
   m_ObjectHideFlags: 0
@@ -10809,6 +10929,7 @@ GameObject:
   - component: {fileID: 2001158702}
   - component: {fileID: 2001158700}
   - component: {fileID: 2001158699}
+  - component: {fileID: 2001158704}
   m_Layer: 5
   m_Name: SeedsTomato
   m_TagString: SeedsTomato
@@ -10978,6 +11099,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textToDestroy: {fileID: 1434105600}
+--- !u!114 &2001158704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001158697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5ddf2069de31847b42a4af6bf23310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeedsApple: {fileID: 985965900}
+  SeedsOrange: {fileID: 30054869}
+  SeedsCorn: {fileID: 982546037}
+  SeedsTomato: {fileID: 2001158699}
+  OrderOne: {fileID: 1510006927}
+  OrderTwo: {fileID: 827822585}
+  OrderThree: {fileID: 1755688566}
 --- !u!1 &2044783222
 GameObject:
   m_ObjectHideFlags: 0

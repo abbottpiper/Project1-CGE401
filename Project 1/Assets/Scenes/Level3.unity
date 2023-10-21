@@ -775,7 +775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 72102975}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderFive
         m_Mode: 1
         m_Arguments:
@@ -797,7 +797,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -1382,7 +1382,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 83784139}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderEleven
         m_Mode: 1
         m_Arguments:
@@ -1404,7 +1404,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -2768,6 +2768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223958936}
   - component: {fileID: 223958938}
+  - component: {fileID: 223958939}
   - component: {fileID: 223958937}
   m_Layer: 5
   m_Name: Text
@@ -2788,7 +2789,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2835,6 +2836,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223958935}
   m_CullTransparentMesh: 0
+--- !u!114 &223958939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223958935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf14667dc3bc2949b4f762ee1f46b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textToDestroy: {fileID: 223958937}
 --- !u!1 &227638434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,7 +3321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313636173}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderOne
         m_Mode: 1
         m_Arguments:
@@ -3329,7 +3343,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -3926,7 +3940,7 @@ RectTransform:
   m_Children:
   - {fileID: 1298326372}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4638,7 +4652,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 372829440}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderThree
         m_Mode: 1
         m_Arguments:
@@ -4660,7 +4674,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -5887,7 +5901,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 518051260}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderFour
         m_Mode: 1
         m_Arguments:
@@ -5909,7 +5923,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -6494,7 +6508,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 530921835}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderSeven
         m_Mode: 1
         m_Arguments:
@@ -6516,7 +6530,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -7226,7 +7240,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 612696081}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderFourteen
         m_Mode: 1
         m_Arguments:
@@ -7248,7 +7262,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -7833,7 +7847,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 622067305}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderTen
         m_Mode: 1
         m_Arguments:
@@ -7855,7 +7869,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -9018,7 +9032,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 674494617}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderSix
         m_Mode: 1
         m_Arguments:
@@ -9040,7 +9054,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -13164,7 +13178,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1156594162}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderTwelve
         m_Mode: 1
         m_Arguments:
@@ -13186,7 +13200,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -15798,7 +15812,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1466490527}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderThirteen
         m_Mode: 1
         m_Arguments:
@@ -15820,7 +15834,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -16777,7 +16791,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1580669947}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderTwo
         m_Mode: 1
         m_Arguments:
@@ -16799,7 +16813,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -18225,7 +18239,7 @@ RectTransform:
   - {fileID: 2029189184}
   - {fileID: 1065705578}
   m_Father: {fileID: 1896382813}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -19138,103 +19152,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1846503729
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1846503730}
-  - component: {fileID: 1846503733}
-  - component: {fileID: 1846503732}
-  - component: {fileID: 1846503731}
-  m_Layer: 5
-  m_Name: ScoreText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1846503730
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846503729}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1896382813}
-  m_RootOrder: 51
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 883, y: 93}
-  m_SizeDelta: {x: 163.07594, y: 46.87712}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1846503731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846503729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09019ac63b9ba314b9f37e8b509bbf84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  countOrdersScript: {fileID: 730509702}
-  healthSystemScript: {fileID: 473813128}
-  timerScript: {fileID: 2037621910}
-  WrongOrderText: {fileID: 1934910386}
-  gameWonText: {fileID: 276652737}
-  scoreCount: 0
-  NextButton: {fileID: 2070528497}
---- !u!114 &1846503732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846503729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Score:'
---- !u!222 &1846503733
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846503729}
-  m_CullTransparentMesh: 0
 --- !u!1 &1896382812
 GameObject:
   m_ObjectHideFlags: 0
@@ -19316,7 +19233,6 @@ RectTransform:
   - {fileID: 1466490526}
   - {fileID: 612696080}
   - {fileID: 1956368934}
-  - {fileID: 1846503730}
   - {fileID: 223958936}
   - {fileID: 339847555}
   - {fileID: 1721314479}
@@ -19702,7 +19618,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1910911317}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderNine
         m_Mode: 1
         m_Arguments:
@@ -19724,7 +19640,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -20585,7 +20501,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1916412940}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderEight
         m_Mode: 1
         m_Arguments:
@@ -20607,7 +20523,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -21271,7 +21187,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1956368935}
+      - m_Target: {fileID: 730509703}
         m_MethodName: OrderFifteen
         m_Mode: 1
         m_Arguments:
@@ -21293,7 +21209,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1846503731}
+      - m_Target: {fileID: 730509703}
         m_MethodName: threeScore
         m_Mode: 1
         m_Arguments:
@@ -22433,7 +22349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSystemScript: {fileID: 473813128}
-  startTime: 15
+  startTime: 25
   beginTimer: 0
   TimerText: {fileID: 2037621908}
 --- !u!1 &2043295484

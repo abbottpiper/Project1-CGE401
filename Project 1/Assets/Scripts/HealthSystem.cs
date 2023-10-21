@@ -6,7 +6,8 @@ This script keeps track of the health of the player. It also sets gameOver to fa
 max amount of health allowed. In this case, it is set to three. Then it switches a full heart to an empty heart depending on the players 
 health. If health reaches 0, then gameOver is set to true. This causes the gameOver text to appear, and tells the player to restart. This script
 also allows the player to restart by pressing R if all hearts have been lost. The void takeDamage is also initialized here so it can be called
-in other scripts.
+in other scripts. Time.timeScale is also added to this script. If the hearts reach 0, the time will be set to 0, which stops the timmer. Once the scene is
+restarted, it is reset back to one, and the timer starts counting down again.
 */
 
 using System.Collections;
@@ -17,6 +18,8 @@ using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
+    ButtonFunctions buttonScripts;
+
     public int health;
     public int maxHealth;
 
