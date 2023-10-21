@@ -20,6 +20,18 @@ public class L3ButtonFunctions : MonoBehaviour
     public Button OrderOne;
     public Button OrderTwo;
     public Button OrderThree;
+    public Button OrderFour;
+    public Button OrderFive;
+    public Button OrderSix;
+    public Button OrderSeven;
+    public Button OrderEight;
+    public Button OrderNine;
+    public Button OrderTen;
+    public Button OrderEleven;
+    public Button OrderTwelve;
+    public Button OrderThirteen;
+    public Button OrderFourteen;
+    public Button OrderFifteen;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +62,18 @@ public class L3ButtonFunctions : MonoBehaviour
         OrderOne.interactable = false;
         OrderTwo.interactable = false;
         OrderThree.interactable = false;
+        OrderFour.interactable = false;
+        OrderFive.interactable = false;
+        OrderSix.interactable = false;
+        OrderSeven.interactable = false;
+        OrderEight.interactable = false;
+        OrderNine.interactable = false;
+        OrderTen.interactable = false;
+        OrderEleven.interactable = false;
+        OrderTwelve.interactable = false;
+        OrderThirteen.interactable = false;
+        OrderFourteen.interactable = false;
+        OrderFifteen.interactable = false;
     }
 
     public void startButton()
@@ -71,6 +95,18 @@ public class L3ButtonFunctions : MonoBehaviour
             OrderOne.interactable = true;
             OrderTwo.interactable = true;
             OrderThree.interactable = true;
+            OrderFour.interactable = true;
+            OrderFive.interactable = true;
+            OrderSix.interactable = true;
+            OrderSeven.interactable = true;
+            OrderEight.interactable = true;
+            OrderNine.interactable = true;
+            OrderTen.interactable = true;
+            OrderEleven.interactable = true;
+            OrderTwelve.interactable = true;
+            OrderThirteen.interactable = true;
+            OrderFourteen.interactable = true;
+            OrderFifteen.interactable = true;
         } 
     }
 }

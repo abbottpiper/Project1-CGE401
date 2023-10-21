@@ -18,7 +18,33 @@ using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
-    ButtonFunctions buttonScripts;
+    public Button SeedsApple;
+    public Button SeedsOrange;
+    public Button SeedsBanana;
+    public Button SeedsBerries;
+    public Button SeedsWatermelon;
+
+    public Button SeedsCorn;
+    public Button SeedsTomato;
+    public Button SeedsPotato;
+    public Button SeedsTurnip;
+    public Button SeedsCarrot;
+
+    public Button OrderOne;
+    public Button OrderTwo;
+    public Button OrderThree;
+    public Button OrderFour;
+    public Button OrderFive;
+    public Button OrderSix;
+    public Button OrderSeven;
+    public Button OrderEight;
+    public Button OrderNine;
+    public Button OrderTen;
+    public Button OrderEleven;
+    public Button OrderTwelve;
+    public Button OrderThirteen;
+    public Button OrderFourteen;
+    public Button OrderFifteen;
 
     public int health;
     public int maxHealth;
@@ -68,6 +94,34 @@ public class HealthSystem : MonoBehaviour
             gameOver = true;
             gameOverText.SetActive(true);
             Time.timeScale = 0;
+
+            SeedsApple.interactable = false;
+            SeedsOrange.interactable = false;
+            SeedsBanana.interactable = false;
+            SeedsBerries.interactable = false;
+            SeedsWatermelon.interactable = false;
+
+            SeedsTomato.interactable = false;
+            SeedsCorn.interactable = false;
+            SeedsCarrot.interactable = false;
+            SeedsPotato.interactable = false;
+            SeedsTurnip.interactable = false;
+
+            OrderOne.interactable = false;
+            OrderTwo.interactable = false;
+            OrderThree.interactable = false;
+            OrderFour.interactable = false;
+            OrderFive.interactable = false;
+            OrderSix.interactable = false;
+            OrderSeven.interactable = false;
+            OrderEight.interactable = false;
+            OrderNine.interactable = false;
+            OrderTen.interactable = false;
+            OrderEleven.interactable = false;
+            OrderTwelve.interactable = false;
+            OrderThirteen.interactable = false;
+            OrderFourteen.interactable = false;
+            OrderFifteen.interactable = false;
 
             //Press R to restart if game is over
             if (Input.GetKeyDown(KeyCode.R))
