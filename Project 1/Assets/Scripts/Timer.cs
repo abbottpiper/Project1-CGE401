@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
 {
     public HealthSystem healthSystemScript;
 
-    public float startTime = 15;
+    public float startTime = 30;
 
     public bool beginTimer = false;
 
@@ -39,7 +39,7 @@ public class Timer : MonoBehaviour
 
             if (startTime < 0)
             {
-                startTime += 15;
+                startTime += 30;
                 healthSystemScript.TakeDamage();
             }
         }
@@ -47,7 +47,7 @@ public class Timer : MonoBehaviour
 
     public void Restart()
     {
-        startTime = 15;
+        startTime = 30;
         TimerText.text = (startTime).ToString("startTime");
     }
 }
