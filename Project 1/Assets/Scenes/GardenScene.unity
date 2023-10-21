@@ -4740,7 +4740,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 827822584}
+      - m_Target: {fileID: 647665041}
         m_MethodName: OrderTwo
         m_Mode: 1
         m_Arguments:
@@ -7212,7 +7212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSystemScript: {fileID: 1193332521}
-  startTime: 15
+  startTime: 30
   beginTimer: 0
   TimerText: {fileID: 1367162462}
 --- !u!222 &1367162464
@@ -7944,7 +7944,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1510006926}
+      - m_Target: {fileID: 647665041}
         m_MethodName: OrderOne
         m_Mode: 1
         m_Arguments:
@@ -9311,7 +9311,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1755688565}
+      - m_Target: {fileID: 647665041}
         m_MethodName: OrderThree
         m_Mode: 1
         m_Arguments:
