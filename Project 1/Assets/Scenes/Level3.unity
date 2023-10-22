@@ -260,6 +260,78 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19340465}
   m_CullTransparentMesh: 0
+--- !u!1 &20350850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20350851}
+  - component: {fileID: 20350853}
+  - component: {fileID: 20350852}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &20350851
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20350850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.01, y: 1.99, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1721314479}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -30.3, y: -36.629852}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &20350852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20350850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 212c50e7a8b9a5043bb5042c9f2ea8f2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &20350853
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20350850}
+  m_CullTransparentMesh: 0
 --- !u!1 &21713975
 GameObject:
   m_ObjectHideFlags: 0
@@ -12893,7 +12965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17, y: -92}
+  m_AnchoredPosition: {x: -9.2, y: -168.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065705579
@@ -19061,6 +19133,7 @@ RectTransform:
   m_Children:
   - {fileID: 2029189184}
   - {fileID: 1065705578}
+  - {fileID: 20350851}
   m_Father: {fileID: 1896382813}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19081,14 +19154,14 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 10756, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4811321, g: 0.44708973, b: 0.44708973, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a9f82f5cc821f4b4a9f5e40a450e8832, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -23150,7 +23223,6 @@ GameObject:
   - component: {fileID: 2029189184}
   - component: {fileID: 2029189187}
   - component: {fileID: 2029189186}
-  - component: {fileID: 2029189185}
   m_Layer: 5
   m_Name: NarrativeText
   m_TagString: Untagged
@@ -23174,23 +23246,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: -54}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 5.2, y: 115.5}
+  m_SizeDelta: {x: 372.76807, y: 170.94434}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2029189185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029189183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bfe44222866be4483a4df648632833, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 2029189186}
-  revealSpeed: 0.1
 --- !u!114 &2029189186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23222,7 +23280,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Placeholder for narrative
+  m_Text: 'The community garden continued to grow, both in size and impact. Local
+    businesses donated supplies, and volunteers from all over the city came to help.
+
+
+    People from diverse backgrounds, who might never have crossed paths otherwise,
+    now worked together toward a common goal. The garden was no longer just about
+    nurturing plants; it was about cultivating bonds and fostering a sense of shared
+    responsibility.'
 --- !u!222 &2029189187
 CanvasRenderer:
   m_ObjectHideFlags: 0
