@@ -8,10 +8,11 @@ to a specific number assigned to that order. If the food score has been added up
 tag and destroyed. Next, the score goes up by one, and totalFood and totalCount are reset to zero. If the foodScore does not match the number 
 listed, the void will call the takeDamage void from the HealthSystem script and the player will lose a life. It will also set the wrongOrder
 text to true so the text is visible to the player. Then an IEnumerator is called, which waits 2 seconds then hides the text from the player. 
-This makes sure the text is only on screen for two seconds. Lastly, it will also set totalFood and totalCount to 0. This script also displays
+This makes sure the text is only on screen for two seconds. This will also set totalFood and totalCount to 0. This script also keeps track of
 the score. Each level has a different score to reach, so each level has its own void to call. Each level checks if the score in their
 a specific void has been reached. If the score is reached in that level, then the You Win text is displayed and a next button will be moved
-into view of the player. Clicking the next button will bring the player to the next level.
+into view of the player. Clicking the next button will bring the player to the next level. If that score is reached, the void will also set
+Time.scaleTime to 0 so the timer in that level will stop. This way, the player can not lose a life after they have already won.
 */
 
 using System.Collections;
