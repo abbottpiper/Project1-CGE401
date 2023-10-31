@@ -1,4 +1,15 @@
-﻿using System.Collections;
+﻿/*
+Denver Heneghan
+L3ButtonFunctions.cs
+Project 2
+This script has two voids. The stopButton void sets all of the seed buttons and order ticket buttons to no longer be interactable. The startButton
+void sets all of the seed buttons and order tickets to be intractable if space is pressed. The stopButton void is called at the start of the 
+scene so these buttons start off as being not interactable. Update checks if space has been pressed while the scene is running, and if it is, it
+calls the startButton void. This script is specifically for level 3 of the game, and only interacts with the seed buttons and order ticket buttons
+that appear on that level.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
